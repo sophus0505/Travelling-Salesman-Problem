@@ -44,9 +44,9 @@ The optimal distance on 6  cities is: 5018.8100
 The optimal distance on 10 cities is: 7486.3100
 ```
 
-![Exhaustive search performed on 6 cities.](figures/exhaustive6.png){width=70%}
+![Exhaustive search performed on 6 cities.](figures/exhaustive6.png)
 
-![Exhaustive search performed on 10 cities.](figures/exhaustive10.png){width=70%}
+![Exhaustive search performed on 10 cities.](figures/exhaustive10.png)
 
 
 ## 3. Hill Climbing
@@ -83,9 +83,9 @@ The results show that the optimal solution is found for 10 cities, since it is t
 We also plot the best route acheived during the 20 runs for both 10 and 24 cities, they are shown in figure 3 and figure 4. 
 
 
-![Hill climbing algorithm performed on 10 cities.](figures/hill10.png){width=70%}
+![Hill climbing algorithm performed on 10 cities.](figures/hill10.png)
 
-![Hill climbing algorithm performed on 24 cities.](figures/hill24.png){width=70%}
+![Hill climbing algorithm performed on 24 cities.](figures/hill24.png)
 
 \newpage
 ## 4. Genetic algorithm
@@ -125,10 +125,10 @@ The average fitness of the best fit individual in each generation is shown for a
 
 The best plans from the 20 runs for 10 and 24 cities is shown in figures 6 and 7 below. 
 
-![Genetic algorithm performed on 10 cities.](figures/genetic10.png){width=70%}
+![Genetic algorithm performed on 10 cities.](figures/genetic10.png)
 
 
-![Genetic algorithm performed on 24 cities.](figures/genetic24.png){width=70%}
+![Genetic algorithm performed on 24 cities.](figures/genetic24.png)
 
 \newpage
 When running the algorithm for 10 cities and three different population sizes, we get the following results:
@@ -188,4 +188,4 @@ std        = 200.0327
 The figure showing the best plan is shown below in figure 8. 
 
 
-![Hybrid algorithm performed on 24 cities.](figures/hybrid24.png){width=70%}
+![Hybrid algorithm performed on 24 cities.](figures/hybrid24.png)
