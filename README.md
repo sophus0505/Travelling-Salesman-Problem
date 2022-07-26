@@ -44,9 +44,9 @@ The optimal distance on 6  cities is: 5018.8100
 The optimal distance on 10 cities is: 7486.3100
 ```
 
-![Exhaustive search performed on 6 cities.](../exhaustive6.png){width=70%}
+![Exhaustive search performed on 6 cities.](figures/exhaustive6.png){width=70%}
 
-![Exhaustive search performed on 10 cities.](../exhaustive10.png){width=70%}
+![Exhaustive search performed on 10 cities.](figures/exhaustive10.png){width=70%}
 
 
 ## 3. Hill Climbing
@@ -83,9 +83,9 @@ The results show that the optimal solution is found for 10 cities, since it is t
 We also plot the best route acheived during the 20 runs for both 10 and 24 cities, they are shown in figure 3 and figure 4. 
 
 
-![Hill climbing algorithm performed on 10 cities.](../hill10.png){width=70%}
+![Hill climbing algorithm performed on 10 cities.](figures/hill10.png){width=70%}
 
-![Hill climbing algorithm performed on 24 cities.](../hill24.png){width=70%}
+![Hill climbing algorithm performed on 24 cities.](figures/hill24.png){width=70%}
 
 \newpage
 ## 4. Genetic algorithm
@@ -120,15 +120,15 @@ The best distance found for 24 cities is: 13635.9000
 which shows that our genetic algorithm performs a little worse than steepest ascent hill climbing, but that it still gives a reasonable answer. 
 The average fitness of the best fit individual in each generation is shown for all three population sizes in figure 5 below. 
 
-![Average fitnes of the best fit individual in each generation for 24 cities with varying population sizes.](../genetic_performance.png)
+![Average fitnes of the best fit individual in each generation for 24 cities with varying population sizes.](figures/genetic_performance.png)
 
 
 The best plans from the 20 runs for 10 and 24 cities is shown in figures 6 and 7 below. 
 
-![Genetic algorithm performed on 10 cities.](../genetic10.png){width=70%}
+![Genetic algorithm performed on 10 cities.](figures/genetic10.png){width=70%}
 
 
-![Genetic algorithm performed on 24 cities.](../genetic24.png){width=70%}
+![Genetic algorithm performed on 24 cities.](figures/genetic24.png){width=70%}
 
 \newpage
 When running the algorithm for 10 cities and three different population sizes, we get the following results:
@@ -188,4 +188,4 @@ std        = 200.0327
 The figure showing the best plan is shown below in figure 8. 
 
 
-![Hybrid algorithm performed on 24 cities.](../hybrid24.png){width=70%}
+![Hybrid algorithm performed on 24 cities.](figures/hybrid24.png){width=70%}
